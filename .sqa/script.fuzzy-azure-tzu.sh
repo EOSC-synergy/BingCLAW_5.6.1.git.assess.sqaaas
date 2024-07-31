@@ -5,5 +5,5 @@
 
 (
 cd github.com/norwegian-geotechnical-institute/BingCLAW_5.6.1 &&
-    licensee detect . --confidence 60 --json
+    bandit -f json --quiet  --confidence-level high --severity-level high --recursive  .
 )

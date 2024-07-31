@@ -5,5 +5,5 @@
 
 (
 cd github.com/norwegian-geotechnical-institute/BingCLAW_5.6.1 &&
-    git rev-parse --is-inside-work-tree
+    git rev-parse --is-inside-work-tree 
 )
